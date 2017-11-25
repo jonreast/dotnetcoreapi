@@ -8,3 +8,4 @@
 /Users/jone/projects/_sandbox/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.AssemblyInfo.cs
 /Users/jone/projects/_sandbox/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.dll
 /Users/jone/projects/_sandbox/TodoApi/obj/Debug/netcoreapp2.0/TodoApi.pdb
+/Users/jone/projects/_sandbox/TodoApi/bin/Debug/netcoreapp2.0/TodoApi.xml
