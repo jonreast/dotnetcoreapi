@@ -14,22 +14,13 @@ namespace TodoApi
     {
         public static void Main(string[] args)
         {
-            //BuildWebHost(args).Run();
-
-            var host = new WebHostBuilder()
-                .UseKestrel()
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
-                .UseStartup<Startup>()
-                .UseApplicationInsights()
-                .UseAzureAppServices()
-                .Build();
- 
-            host.Run();
+            BuildWebHost(args).Run();
         }
 
-        public static IWebHost BuildWebHost(string[] args) =>
+        //Startup host config options - https://docs.microsoft.com/en-us/aspnet/core/fundamentals/hosting?tabs=aspnetcore2x
+         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+            .UseEnvironment("Development")
             .UseStartup<Startup>()
             .Build();
     }

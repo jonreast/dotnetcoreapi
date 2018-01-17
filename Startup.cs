@@ -66,10 +66,10 @@ namespace TodoApi
             });
 
 
-            //if (env.IsDevelopment())
-            //{
+            if (env.IsDevelopment())
+            {
                 app.UseDeveloperExceptionPage();
-            //}
+            }
 
             app.UseMvc();
         }

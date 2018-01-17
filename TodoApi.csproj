@@ -8,6 +8,10 @@
     <DocumentationFile>bin\Debug\netcoreapp2.0\TodoApi.xml</DocumentationFile>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <IsTransformWebConfigDisabled>true</IsTransformWebConfigDisabled>
+  </PropertyGroup>
+
   <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
